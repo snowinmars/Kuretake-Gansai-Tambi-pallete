@@ -1,0 +1,19 @@
+{
+  "name": "Kuretake-Gansai-Tambi-pallete",
+  "version": "1.0.0",
+  "description": "Rgb/hsl/hsv palette of Kuretake Gansai Tambi colors - traditional Japan palette",
+  "main": "index.js",
+  "repository": "https://github.com/snowinmars/Kuretake-Gansai-Tambi-pallete.git",
+  "author": "snowinmars <snowinmars@yandex.ru>",
+  "license": "GPL-3.0-only",
+  "private": false,
+  "scripts": {
+    "gen": "ts-node ./src/generator.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.12",
+    "node-html-to-image": "^3.2.0",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.5"
+  }
+}
